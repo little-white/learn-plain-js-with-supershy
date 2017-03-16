@@ -5,12 +5,13 @@ learn-plain-js-with-supershy起源于我想提高自己的代码水平，闲暇�
 ### 让我们开始吧
 
 ```javascript
+npm install
 npm install learn-plain-js-with-supershy -g
 npm install mocha -g
 ```
 
 当我们运行```learn-plain-js-with-supershy```会出现
 
-![](screenshot.png)
+![](https://raw.githubusercontent.com/little-white/learn-plain-js-with-supershy/master/screenshot.png)
 
 上下键选择好后点击回车就出现了题目。
