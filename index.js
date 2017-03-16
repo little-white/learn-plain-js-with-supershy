@@ -7,7 +7,8 @@ const shop = adventure({
 });
 
 const practices = [
-    'Array:chunk'
+    'Array:chunk',
+    'Array:compact'
 ];
 
 practices.forEach((practice) => {

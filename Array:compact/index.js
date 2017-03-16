@@ -4,11 +4,11 @@ var test = require(__dirname + '/../common/test-config');
 
 
 module.exports.problem = function() {
-    return common('Array:chunk').problemContent;
+    return common('Array:compact').problemContent;
 }
 
 module.exports.solution = function() {
-    return common('Array:chunk').solutionContent;
+    return common('Array:compact').solutionContent;
 }
 
 module.exports.verify = (args, cb) => {
