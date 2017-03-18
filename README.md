@@ -26,4 +26,8 @@ npm install learn-plain-js-with-supershy -g
 
 ![](https://github.com/little-white/learn-plain-js-with-supershy/raw/master/success-all.png)
 
+演示效果：
+
+![](demo.gif)
+
 让我们开始攻关吧！
