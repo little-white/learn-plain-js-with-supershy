@@ -18,7 +18,7 @@ npm install learn-plain-js-with-supershy -g
 
 ![](https://github.com/little-white/learn-plain-js-with-supershy/raw/master/problem.png)
 
-当完成了功能后，可以验证代码的正确性（使用了mocha来测试代码），当通过后显示如下：
+当完成了功能后，可以验证代码的正确性（使用了[mocha](https://mochajs.org/)来测试代码），当通过后显示如下：
 
 ![](https://github.com/little-white/learn-plain-js-with-supershy/raw/master/success.png)
 
@@ -28,6 +28,6 @@ npm install learn-plain-js-with-supershy -g
 
 演示效果：
 
-![](demo.gif)
+![](https://github.com/little-white/learn-plain-js-with-supershy/raw/master/demo.gif)
 
 让我们开始攻关吧！
