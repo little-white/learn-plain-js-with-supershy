@@ -22,9 +22,19 @@ describe('Array', function() {
         });
     });
 
-    test('compact', lodashLike)('应该返回返回过滤假值后的数组', () => {
+    test('compact', lodashLike)('应该返回过滤假值后的数组', () => {
         it("compact([0, 1, false, 2, '', 3])应该返回[1, 2, 3]", () => {
             assert.deepEqual(lodashLike.compact([0, 1, false, 2, '', 3]), [1, 2, 3]);
+        });
+    });
+
+    test('difference', lodashLike)('应该返回过滤后的数组', () => {
+        it("difference([1, 2, 3], [4, 2])应该返回[1, 3]", () => {
+        	
+            assert.deepEqual(lodashLike.difference([1, 2, 3], [4, 2]), [1, 3]);
+        });
+        it("difference([1, '2', 3], [4, 2])应该返回[1, '2', 3]", () => {
+            assert.deepEqual(lodashLike.difference([1, '2', 3], [4, 2]), [1, '2', 3]);
         });
     });
 });

@@ -6,11 +6,24 @@ learn-plain-js-with-supershy是交互式的练习工具，而[*Lodash*](https://
 
 ```javascript
 npm install learn-plain-js-with-supershy -g
-npm install mocha -g
 ```
 
 当我们运行```learn-plain-js-with-supershy```会出现
 
 ![](https://raw.githubusercontent.com/little-white/learn-plain-js-with-supershy/master/screenshot.png)
 
-上下键选择好后点击回车就出现了题目。
+按q退出此界面。
+
+上下键选择好后点击回车就出现了题目如下：
+
+![](problem.png)
+
+当完成了功能后，可以验证代码的正确性（使用了mocha来测试代码），当通过后显示如下：
+
+![](success.png)
+
+这只是测试一个功能，当然我们也可以把所有的功能写到一个文件里，通过后显示如下：
+
+![](success-all.png)
+
+让我们开始攻关吧！

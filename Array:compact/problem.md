@@ -19,7 +19,7 @@ _.compact([0, 1, false, 2, '', 3]);
 // => [1, 2, 3]
 ```
 
-### 完善下面代码并保存到chunk.js中
+### 完善下面代码并保存到compact.js中
 
 ```javascript
 module.exports.compact = (array) => {
