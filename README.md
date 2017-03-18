@@ -5,7 +5,6 @@ learn-plain-js-with-supershy是交互式的练习工具，而[*Lodash*](https://
 ### 让我们开始吧
 
 ```javascript
-npm install
 npm install learn-plain-js-with-supershy -g
 npm install mocha -g
 ```
