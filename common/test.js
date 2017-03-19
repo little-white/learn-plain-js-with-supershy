@@ -54,4 +54,19 @@ describe('Array', function() {
         });
     });
 
+    test('dropRight', lodashLike)('应该返回 array 的剩余部分。', () => {
+        it("dropRight([1, 2, 3])应该返回[1, 2]", () => {
+            assert.deepEqual(lodashLike.dropRight([1, 2, 3]), [1, 2]);
+        });
+        it("dropRight([1, 2, 3], 2)应该返回[1]", () => {
+            assert.deepEqual(lodashLike.dropRight([1, 2, 3], 2), [1]);
+        });
+        it("dropRight([1, 2, 3], 5)应该返回[]", () => {
+            assert.deepEqual(lodashLike.dropRight([1, 2, 3], 5), []);
+        });
+        it("dropRight([1, 2, 3], 0)应该返回[1, 2, 3]", () => {
+            assert.deepEqual(lodashLike.dropRight([1, 2, 3], 0), [1, 2, 3]);
+        });
+    });
+
 });

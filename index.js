@@ -10,7 +10,8 @@ const practices = [
     'Array:chunk',
     'Array:compact',
     'Array:difference',
-    'Array:drop'
+    'Array:drop',
+    'Array:dropRight'
 ];
 
 practices.forEach((practice) => {
