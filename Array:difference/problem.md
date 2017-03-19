@@ -1,6 +1,6 @@
 # 挑战
 
-> 来自lodash中文官网的[chunk](http://lodashjs.com/docs/#_chunkarray-size1)
+> 来自lodash中文官网的[difference](http://lodashjs.com/docs/#_differencearray-values)
 
 Creates an array of unique `array` values not included in the other provided arrays using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero) for equality comparisons.返回一个数组，此数组不包含另外数组中的值。
 

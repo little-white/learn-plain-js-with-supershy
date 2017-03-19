@@ -7,6 +7,7 @@ var test = (method, obj) => {
 }
 
 describe('Array', function() {
+
     test('chunk', lodashLike)('应该返回一个包含拆分块数组的新数组（相当于一个二维数组）', () => {
         it("chunk(['a', 'b', 'c', 'd'], 2)应该返回[['a', 'b'], ['c', 'd']]", () => {
             assert.deepEqual(lodashLike.chunk(['a', 'b', 'c', 'd'], 2), [
@@ -30,11 +31,27 @@ describe('Array', function() {
 
     test('difference', lodashLike)('应该返回过滤后的数组', () => {
         it("difference([1, 2, 3], [4, 2])应该返回[1, 3]", () => {
-        	
+
             assert.deepEqual(lodashLike.difference([1, 2, 3], [4, 2]), [1, 3]);
         });
         it("difference([1, '2', 3], [4, 2])应该返回[1, '2', 3]", () => {
             assert.deepEqual(lodashLike.difference([1, '2', 3], [4, 2]), [1, '2', 3]);
         });
     });
+
+    test('drop', lodashLike)('应该返回 array 的剩余部分。', () => {
+        it("drop([1, 2, 3])应该返回[2, 3]", () => {
+            assert.deepEqual(lodashLike.drop([1, 2, 3]), [2, 3]);
+        });
+        it("drop([1, 2, 3], 2)应该返回[3]", () => {
+            assert.deepEqual(lodashLike.drop([1, 2, 3], 2), [3]);
+        });
+        it("drop([1, 2, 3], 5)应该返回[]", () => {
+            assert.deepEqual(lodashLike.drop([1, 2, 3], 5), []);
+        });
+        it("drop([1, 2, 3], 0)应该返回[1, 2, 3]", () => {
+            assert.deepEqual(lodashLike.drop([1, 2, 3], 0), [1, 2, 3]);
+        });
+    });
+
 });
