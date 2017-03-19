@@ -1,6 +1,6 @@
 {
   "name": "learn-plain-js-with-supershy",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "learn lodash api and write them",
   "main": "index.js",
   "bin": {
